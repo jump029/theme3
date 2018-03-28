@@ -30,7 +30,7 @@ Test set score :  -1.73669373855711
 予測した応募の数 :  21.683503730692014   
 
 予測した値と実際の値をプロットすると、  
-![MPL](png/MPL.PNG)  
+![MPL](png/MPL.png)  
 青い線が実際の値、オレンジの線が学習に使用した範囲の予測結果、緑の線が予測結果。  
 足し合わせた値を見る限りはそこそこあっている気がするが、テストのスコアや実際のグラフを見る限り、うまく学習できていない気がする  
 
@@ -43,7 +43,7 @@ Test set score :  -0.004926479257863159
 実際に来た応募の数 :  19  
 予測した応募の数 :  12.314003800142018  
 予測した値と実際の値をプロットすると、  
-![LinearReg](png/LinearReg.PNG)  
+![LinearReg](png/LinearReg.png)  
 
 #### Lasso  
 alphaの値は10.0を使用。  
@@ -52,7 +52,7 @@ Test set score :  -0.012377584955427512
 実際に来た応募の数 :  19  
 予測した応募の数 :  14.946355431656492  
 予測した値と実際の値をプロットすると、  
-![Lasso](png/lasso.PNG)  
+![Lasso](png/lasso.png)  
 
 #### Ridge  
 alphaの値は10.0を使用。  
@@ -61,7 +61,7 @@ Test set score :  0.02094403602517203
 実際に来た応募の数 :  19  
 予測した応募の数 :  14.919775491903152  
 予測した値と実際の値をプロットすると、  
-![ridge](png/ridge.PNG)  
+![ridge](png/ridge.png)  
 
 #### Kernel Ridge  
 POSIX時間を使用すると、POSIX時間に強く依存するようで、未来の予測がうまくできなかったので、このアルゴリズムのみ特徴量の POSIX時間 を消して実行。  
@@ -71,7 +71,7 @@ Test set score :  -0.25601511661630205
 実際に来た応募の数 :  19  
 予測した応募の数 :  4.25297835376787  
 予測した値と実際の値をプロットすると、  
-![kernel_ridge](png/kernel_ridge.PNG)  
+![kernel_ridge](png/kernel_ridge.png)  
 
 #### 決定木
 max_depthは10を使用。  
@@ -80,7 +80,7 @@ Test set score :  -1.3384912959381046
 実際に来た応募の数 :  19  
 予測した応募の数 :  31.0    
 予測した値と実際の値をプロットすると、  
-![DecTreeReg](png/DecTreeReg.PNG)  
+![DecTreeReg](png/DecTreeReg.png)  
 
 #### ランダムフォレスト  
 Training score :  0.7167321867321867  
@@ -88,7 +88,7 @@ Test set score :  -0.07600580270793023
 実際に来た応募の数 :  19  
 予測した応募の数 :  10.7  
 予測した値と実際の値をプロットすると、  
-![RandForest](png/RandForest.PNG)  
+![RandForest](png/RandForest.png)  
 
 #### 勾配ブースティング決定木  
 Training score :  0.8719069471417242  
@@ -96,7 +96,7 @@ Test set score :  -0.3186342418812482
 実際に来た応募の数 :  19  
 予測した応募の数 :  18.326492491014758  
 予測した値と実際の値をプロットすると、  
-![GradBoostReg](png/GradBoostReg.PNG)  
+![GradBoostReg](png/GradBoostReg.png)  
 
 #### サポートベクターマシン  
 Training score :  0.9187831304902877  
@@ -104,4 +104,4 @@ Test set score :  -0.07808164272877338
 実際に来た応募の数 :  19  
 予測した応募の数 :  9.073528957151812  
 予測した値と実際の値をプロットすると、  
-![SVR](png/SVR.PNG)  
+![SVR](png/SVR.png)  
